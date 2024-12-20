@@ -1,0 +1,14 @@
+apiVersion: rbac.authorizarion.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: pod_role_bind
+  namespace: RBAC_Namespace
+subjects:
+  kind:
+  name:
+  namespace:
+roleRef:
+  kind:
+  name:
+  apiGroups:
+  
