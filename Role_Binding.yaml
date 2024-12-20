@@ -4,11 +4,11 @@ metadata:
   name: pod_role_bind
   namespace: RBAC_Namespace
 subjects:
-  kind:
-  name:
-  namespace:
+  kind: Service Account
+  name: my-servieaccount
+  namespace: RBAC_Namespace
 roleRef:
-  kind:
-  name:
-  apiGroups:
+  kind: Role
+  name: RBAC_Role
+  apiGroups: rbac.authorization.k8s.io
   
